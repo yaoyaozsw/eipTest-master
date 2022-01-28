@@ -21,7 +21,7 @@ class TestFinancialReimbursement:
         reimbursement.click_finance_category() #点击财务类
         reimbursement.click_financial_reimbursement_application('IGG 福州-203技术部-程序组-测试组-测试工程师') #点击财务报销申请
         reimbursement.switch_to_iframe_by_name('财务报销申请')
-        reimbursement.switch_user('许晨欣','203技术部-程序组-测试组')
+        #reimbursement.switch_user('许晨欣','203技术部-程序组-测试组')
         reimbursement.select_company('福州天极数码有限公司')
         reimbursement.related_process_number_confirm()
         reimbursement.input_payment_time('2022-01-30')
