@@ -1,0 +1,41 @@
+工作流:
+  'xpath==//*[@id="top_menu_52"]/a'
+我的工作流:
+  'xpath==//*[@id="menu_57"]/a'
+新建工作:
+  'xpath==//*[@id="menu_57"]/ul/li[1]/a'
+待处理工作:
+  'xpath==//*[@id="menu_57"]/ul/li[2]/a'
+已处理工作:
+  'xpath==//*[@id="menu_57"]/ul/li[3]/a'
+我发起的工作:
+  'xpath==//*[@id="menu_57"]/ul/li[4]/a'
+人事类:
+  'xpath==/html/body/div[3]/div[2]/div[1]/div[2]/ul/li[5]/a'
+工牌补办申请:
+  'xpath==//*[@id="section4"]/div/div[5]/ul/li[1]/a[1]'
+IGG新人入职流程:
+  'xpath==//*[@id="section4"]/div/div[2]/ul/li[1]/a[1]'
+工作流主页tab列表:
+  'id==win_lab_list'
+已处理工作首条数据:
+  'xpath==/html/body/div[3]/div[2]/table/tbody/tr[1]/td[2]/a'
+我发起的首条数据:
+  'xpath==/html/body/div[3]/div[2]/table/tbody/tr[1]/td[1]/a'
+待处理工作首条数据:
+  'xpath==/html/body/div[3]/div[2]/table/tbody/tr[1]/td[2]/a'
+转交到下一步:
+  'xpath==/html/body/div[3]/div[2]/table[2]/tbody/tr/td/button[4]'
+
+财务类:
+  'xpath==//*[@id="app"]/div[2]/ul/li[6]/a'
+财务报销申请:
+  'xpath==//*[@id="section5"]/div/ul/li[2]/a[1]'
+职能岗位_测试工程师:
+  'xpath==//*[@id="select_job_body"]/div/a[1]'
+职能岗位_人力资源高级专员:
+  'xpath==//*[@id="select_job_body"]/div/a[2]'
+财务报销申请_财务主管:
+  'xpath==//*[@id="select_job_body"]/div/a[3]'
+财务报销申请_人力资源专员:
+  'xpath==//*[@id="select_job_body"]/div/a[4]'

@@ -1,0 +1,279 @@
+财务类:
+  'xpath==//*[@id="app"]/div[2]/ul/li[6]/a'
+财务报销申请:
+  'xpath==//*[@id="section5"]/div/ul/li[2]/a[1]'
+职能岗位_测试工程师:
+  'xpath==//*[@id="select_job_body"]/div/a[1]'
+职能岗位_人力资源高级专员:
+  'xpath==//*[@id="select_job_body"]/div/a[2]'
+财务报销申请_财务主管:
+  'xpath==//*[@id="select_job_body"]/div/a[3]'
+财务报销申请_人力资源专员:
+  'xpath==//*[@id="select_job_body"]/div/a[4]'
+报销人选择:
+  'xpath==//*[@id="select_job_body"]/div/a[1]'
+报销人确定:
+  'xpath==//*[@id="wd_dialog_1"]/div/div/div[3]/button[2]'
+职能岗位:
+  'xpath==//*[@id="select_job_body"]/div/a[1]'
+职能岗位确定:
+  'xpath==//*[@id="wd_dialog_1"]/div/div/div[3]/button[2]'
+报销人选择用户:
+  'xpath==//*[@id="flow_form"]/table/tbody/tr[1]/td[2]/div/span[1]/a'
+报销人删除用户:
+  'xpath==//*[@id="flow_form"]/table/tbody/tr[1]/td[2]/div/span[2]/a'
+所属部门:
+  'xpath==//*[@id="reimburse_dept"]'
+选择费用归属公司:
+  'xpath==//*[@id="entity_company"]'
+关联相关流程编号搜索流程编号:
+  'xpath==//*[@id="reference_code"]'
+关联相关流程编号输入框:
+  'xpath==//*[@id="s2id_autogen3"]'
+关联相关流程编号:
+  'xpath==//*[@id="s2id_reference_code"]/ul'
+关联相关流程编号选择无:
+  'xpath==//*[@id="select2-drop"]/ul/li[1]'
+期望付款日期:
+  'xpath==//*[@id="start_expect_time"]'
+选择支付币种:
+  'xpath==//*[@id="currency"]'
+选择支付方式:
+  'xpath==//*[@id="payment_way"]'
+报销总额:
+  'xpath==//*[@id="start_expect_time"]'
+收款方姓名:
+  'xpath==//*[@id="payee_name"]'
+需要出纳提供付款证明否:
+  'xpath==//*[@id="start_prove1"]'
+需要出纳提供付款证明是:
+  'xpath==//*[@id="start_prove2"]'
+账户类型:
+  'xpath==//*[@id="pay_account_type"]'
+
+#选择支付方式选择paypal、公司信用卡、支票，出现收款账号
+收款账号:
+  'xpath==//*[@id="start_rec_account"]'
+
+#选择费用归属供公司：选择中国大陆以及中国台湾的公司，选择支付方式：银行转账
+国内转账银行所在城市:
+  'xpath==//*[@id="bank_city_1"]'
+国内转账银行名称:
+  'xpath==//*[@id="blank_name_1"]'
+国内转账开户行信息:
+  'xpath==//*[@id="bank_info_1"]'
+国内转账收款人账户名称:
+  'xpath==//*[@id="blank_account_name_1"]'
+国内转账收款银行账号:
+  'xpath==//*[@id="blank_account_1"]'
+
+#选择费用归属供公司：未选择、选择国外的公司以及中国香港的公司，选择支付方式：银行转账
+国外转账收款人账号名称:
+  'xpath==//*[@id="blank_account_name_2"]'
+国外转账收款人银行账号:
+  'xpath==//*[@id="blank_account_2"]'
+国外转账收款人地址:
+  'xpath==//*[@id="blank_user_address_2"]'
+国外转账收款人电话:
+  'xpath==//*[@id="blank_tel_2"]'
+国外转账收款人银行名称:
+  'xpath==//*[@id="blank_name_2"]'
+国外转账收款人银行地址:
+  'xpath==//*[@id="blank_address_2"]'
+国外转账收款人银行国际代码:
+  'xpath==//*[@id="blank_swift_code_2"]'
+国外转账收款人银行汇款代码:
+  'xpath==//*[@id="blank_pay_code_2"]'
+国外转账收款人银行行号:
+  'xpath==//*[@id="blank_id_2"]'
+国外转账收款人银行分行号:
+  'xpath==//*[@id="blank_branch_code_2"]'
+
+
+非差旅明细:
+  'xpath==//*[@id="start_detail_style1"]'
+差旅明细:
+  'xpath==//*[@id="start_detail_style2"]'
+行政费用:
+  'xpath==//*[@id="start_detail_style3"]'
+酒店费用明细:
+  'xpath==//*[@id="start_detail_style4"]'
+
+
+非差旅费用类型:
+  'xpath==//*[@id="detail"]/tbody/tr[2]/td[2]/div/span/a'
+非差旅费用归属期间:
+  'xpath==//*[@id="detail"]/tbody/tr[2]/td[3]/input'
+非差旅用途:
+  'xpath==//*[@id="detail"]/tbody/tr[2]/td[4]/input'
+非差旅单据币种:
+  'xpath==//*[@id="detail"]/tbody/tr[2]/td[5]/select'
+非差旅税前金额:
+  'xpath==//*[@id="detail"]/tbody/tr[2]/td[6]/input'
+非差旅税:
+  'xpath==//*[@id="detail"]/tbody/tr[2]/td[7]/input'
+非差旅折算成RMB的汇率:
+  'xpath==//*[@id="detail"]/tbody/tr[2]/td[8]/input'
+非差旅合计:
+  'xpath==//*[@id="detail"]/tbody/tr[2]/td[9]/input'
+非差旅操作_删除:
+  'xpath==//*[@id="detail"]/tbody/tr[2]/td[10]/a[1]'
+非差旅操作_复制:
+  'xpath==//*[@id="detail"]/tbody/tr[2]/td[10]/a[2]'
+非差旅增加明细:
+  'xpath==//*[@id="flow_form"]/table/tbody/tr[22]/td/a[1]'
+非差旅计算总额:
+  'xpath==//*[@id="flow_form"]/table/tbody/tr[22]/td/a[2]'
+非差旅USD参考:
+  'xpath==//*[@id="flow_form"]/table/tbody/tr[22]/td/a[3]'
+
+
+差旅短期出差:
+  'xpath==//*[@id="travel_type1"]'
+差旅长期出差:
+  'xpath==//*[@id="travel_type2"]'
+差旅常驻:
+  'xpath==//*[@id="travel_type4"]'
+差旅无出差补贴:
+  'xpath==//*[@id="travel_type3"]'
+差旅添加计算:
+  'xpath==//*[@id="add_calc_btn"]'
+差旅更新至费用明细:
+  'xpath==//*[@id="update_total_btn"]'
+差旅出差管理制度:
+  'xpath==//*[@id="flow_form"]/table/tbody/tr[21]/td[2]/a[1]'
+差旅长期出差补贴说明:
+  'xpath==//*[@id="flow_form"]/table/tbody/tr[21]/td[2]/a[2]'
+差旅费用类型:
+  'xpath==//*[@id="s2id_autogen1"]/a'
+差旅费用类型搜索框:
+  'xpath==//*[@id="s2id_autogen2_search"]'
+差旅费用归属期间:
+  'xpath==//*[@id="travel_detail"]/tbody/tr[2]/td[3]/input'
+差旅费用归属期间2022:
+  'xpath==/html/body/div[6]/div[2]/div/table/thead/tr[1]/th[2]/select[2]/option[51]'
+差旅费用归属期间202201:
+  'xpath==/html/body/div[6]/div[2]/div/table/thead/tr[1]/th[2]/select[1]/option[1]'
+差旅费用归属期间20220114:
+  'xpath==/html/body/div[6]/div[2]/div/table/tbody/tr[3]/td[6]'
+差旅费用归属期间20220119:
+  'xpath==/html/body/div[6]/div[1]/div/table/tbody/tr[4]/td[4]'
+差旅费用归属期间apply:
+  'xpath==/html/body/div[6]/div[3]/div/button[1]'
+差旅用途:
+  'xpath==//*[@id="travel_detail"]/tbody/tr[2]/td[4]/input'
+差旅单据币种:
+  'xpath==//*[@id="travel_detail"]/tbody/tr[2]/td[5]/select'
+差旅税前金额:
+  'xpath==//*[@id="travel_detail"]/tbody/tr[2]/td[6]/input'
+差旅税:
+  'xpath==//*[@id="travel_detail"]/tbody/tr[2]/td[7]/input'
+差旅折算成RMB的汇率:
+  'xpath==//*[@id="travel_detail"]/tbody/tr[1]/td[8]/input'
+差旅合计:
+  'xpath==//*[@id="travel_detail"]/tbody/tr[1]/td[9]/input'
+差旅操作_删除:
+  'xpath==//*[@id="travel_detail"]/tbody/tr[1]/td[10]/a[1]'
+差旅操作_复制:
+  'xpath==//*[@id="travel_detail"]/tbody/tr[1]/td[10]/a[2]'
+差旅增加明细:
+  'xpath==//*[@id="flow_form"]/table/tbody/tr[23]/td/div/a[1]'
+差旅计算总额:
+  'xpath==//*[@id="flow_form"]/table/tbody/tr[23]/td/div/a[2]'
+差旅USD参考:
+  'xpath==//*[@id="flow_form"]/table/tbody/tr[23]/td/div/a[3]'
+
+
+行政费用类型:
+  'xpath==//*[@id="adm_costs_detail"]/tbody/tr[1]/td[2]/div/span/a'
+行政费用归属期间:
+  'xpath==//*[@id="adm_costs_detail"]/tbody/tr[1]/td[3]/input'
+行政用途:
+  'xpath==//*[@id="adm_costs_detail"]/tbody/tr[1]/td[4]/input'
+行政单据币种:
+  'xpath==//*[@id="adm_costs_detail"]/tbody/tr[1]/td[5]/select'
+行政税前金额:
+  'xpath==//*[@id="adm_costs_detail"]/tbody/tr[1]/td[6]/input'
+行政税:
+  'xpath==//*[@id="adm_costs_detail"]/tbody/tr[1]/td[7]/input'
+行政折算成RMB的汇率:
+  'xpath==//*[@id="adm_costs_detail"]/tbody/tr[1]/td[8]/input'
+行政合计:
+  'xpath==//*[@id="adm_costs_detail"]/tbody/tr[1]/td[9]/input'
+行政操作_删除:
+  'xpath==//*[@id="adm_costs_detail"]/tbody/tr[1]/td[10]/a[1]'
+行政操作_复制:
+  'xpath==//*[@id="adm_costs_detail"]/tbody/tr[1]/td[10]/a[2]'
+行政增加明细:
+  'xpath==//*[@id="flow_form"]/table/tbody/tr[24]/td/a[1]'
+行政计算总额:
+  'xpath==//*[@id="flow_form"]/table/tbody/tr[24]/td/a[2]'
+行政USD参考:
+  'xpath==//*[@id="flow_form"]/table/tbody/tr[24]/td/a[3]'
+
+
+酒店费用类型:
+  'xpath==//*[@id="hotel_detail"]/tbody/tr[2]/td[2]/div/input[1]'
+酒店费用归属期间:
+  'xpath==//*[@id="hotel_detail"]/tbody/tr[2]/td[3]/input'
+酒店用途:
+  'xpath==//*[@id="hotel_detail"]/tbody/tr[2]/td[4]/input'
+酒店单据币种:
+  'xpath==//*[@id="hotel_detail"]/tbody/tr[2]/td[5]/select'
+酒店税前金额:
+  'xpath==//*[@id="hotel_detail"]/tbody/tr[2]/td[6]/input'
+酒店税:
+  'xpath==//*[@id="hotel_detail"]/tbody/tr[2]/td[7]/input'
+酒店折算成RMB的汇率:
+  'xpath==//*[@id="hotel_detail"]/tbody/tr[2]/td[8]/input'
+酒店合计:
+  'xpath==//*[@id="hotel_detail"]/tbody/tr[2]/td[9]/input'
+酒店操作删除:
+  'xpath==//*[@id="hotel_detail"]/tbody/tr[2]/td[10]/a[1]'
+酒店操作复制:
+  'xpath==//*[@id="hotel_detail"]/tbody/tr[2]/td[10]/a[2]'
+酒店增加明细:
+  'xpath==//*[@id="flow_form"]/table/tbody/tr[25]/td/a[1]'
+酒店计算总额:
+  'xpath==//*[@id="flow_form"]/table/tbody/tr[25]/td/a[2]'
+酒店USD参考:
+  'xpath==//*[@id="flow_form"]/table/tbody/tr[25]/td/a[3]'
+
+备注:
+  'xpath==//*[@id="flow_form"]/table/tbody/tr[29]/td[2]/textarea'
+保密内容:
+  'xpath==////*[@id="secrecy_content"]'
+保密附件:
+  'xpath==////*[@id="file_secret"]'
+出纳付款后流程需审批到发起人:
+  'xpath==//*[@id="is_starter_confirm1"]'
+派发审批人按钮:
+  'xpath==//*[@id="is_assign_ad1"]'
+设置审批步骤:
+  'xpath==//*[@id="set_ad_assignee"]'
+设置审批步骤选择用户:
+  'xpath==//*[@id="loop_assignee_config"]/tbody/tr[2]/td[2]/div/a[2]'
+选择用户输入关键词:
+  'xpath==/html/body/div[25]/div/div/div[2]/div/div[1]/div/form/div[2]/input'
+选择用户点击查询:
+  'xpath==/html/body/div[25]/div/div/div[2]/div/div[1]/div/form/button'
+选择用户:
+  'xpath==//*[@id="user_list"]/ul/li/span/label'
+选择用户确定:
+  'xpath==//*[@id="wd_dialog_2"]/div/div/div[3]/button[2]'
+步骤确定:
+  'xpath==//*[@id="wd_dialog_1"]/div/div/div[3]/button[2]'
+点击选择文件:
+  'xpath==//*[@id="exec_attach-dropzone"]'
+附件:
+  'xpath==//*[@id="exec_attach"]'
+加急审批:
+  'xpath==//*[@id="is_urgent1"]'
+期望流程通过的截止时间:
+  'xpath==//*[@id="expected_complete_time"]'
+取消:
+  'xpath==//*[@id="eip_page_content"]/table[2]/tbody/tr[3]/td/a[1]'
+存草稿:
+  'xpath==//*[@id="btn_save"]'
+转交到下一步:
+  'xpath==//*[@id="btn_turn_next"]'
